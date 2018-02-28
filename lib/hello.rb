@@ -1,7 +1,7 @@
 def hello_t(arr)
   i = 0
   while i < arr.length
-    yield array[i]
+    yield arr[i]
     i += 1
   end
 
@@ -13,4 +13,3 @@ hello_t(["Tim", "Tom", "Jim"]) do |name|
     puts "Hi, #{name}"
   end
 end
-
